@@ -36,6 +36,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 
 h2 {
@@ -45,14 +46,37 @@ h2 {
   text-align: center;
   font-weight: normal;
   color: $gray-light;
+  font-family: 'Yellowtail', cursive;
+}
+
+h3 {
+  font-family:'Abel', sans-serif;
+}
+.btn {
+  background-color:#14213D;
+  color: #FFF;
+  font-family:'Amatic SC', cursive;
+  font-size: 26px;
+  padding:14px;
+  background-image: -webkit-linear-gradient(#20b2aa, #00fa9a);
+  border-radius:2px;
+  &:hover {
+    color: $gray-darker;
+  }
+}
+.icn {
+  width: 20px
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+/* header */
+.myNavbar {
+  background-color:#003366;
+}
 
-/* header*/
 #logo {
   float: left;
   margin-right: 10px;
@@ -93,4 +117,12 @@ footer {
       margin-left: 15px;
     }
   }
+}
+.footer-text {
+  text-align: center;
+  font-family:'Yellowtail', sans-serif;
+}
+.spacin {
+  margin-right:10px;
+  padding-right:10px;
 }
