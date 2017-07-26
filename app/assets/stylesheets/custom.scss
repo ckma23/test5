@@ -57,7 +57,14 @@ h2 {
 }
 
 h3 {
-  font-family:'Abel', sans-serif;
+  font-family: 'Abel', sans-serif;
+}
+
+h4 {
+  color: #000;
+  font-family: 'Yellowtail';
+  font-size:25px;
+  font-weight: 100;
 }
 .btn {
   background-color:#14213D;
@@ -76,6 +83,7 @@ h3 {
 }
 
 p {
+  font-family: 'Amatic SC', cursive;
   font-size: 1.1em;
   line-height: 1.7em;
 }
