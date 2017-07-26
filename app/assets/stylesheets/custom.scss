@@ -87,6 +87,14 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
+/* jumbotron */
+.jumbotron {
+background-image: url("https://static.pexels.com/photos/132037/pexels-photo-132037.jpeg");
+background-size: cover;
+min-height: 500px;
+}
+
 /* header */
 .myNavbar {
   background-color:#003366;
