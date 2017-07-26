@@ -10,6 +10,9 @@ end
 gem 'rails', '~> 5.1.2'
 # use bcrypt
 gem 'bcrypt', '3.1.11'
+gem 'jquery-rails', '~> 4.0', '>= 4.0.5'
+gem 'jquery-ui-rails'
+#gem 'jrails'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
