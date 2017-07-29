@@ -1,4 +1,4 @@
-<% provide(:title, "Home") %>
+<!--<% provide(:title, "Home") %>
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,4 +15,29 @@
     <h3 class="footer-text"> Hope you'll enjoy the journey! </h3>
     <%#= image_tag("kitten.jpg", alt: "Kitten") %>
   </body>
-</html>
+</html>-->
+
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+    <div class="center jumbotron container-fluid">
+      <h1>Travel the Road Less Traveled</h1>
+      <h2>
+        Be an inspiration for yourself & the others around you
+      </h2>
+        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    </div>
+    <% end %>
