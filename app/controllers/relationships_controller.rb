@@ -10,7 +10,6 @@ class RelationshipsController < ApplicationController
       format.js
     end
   end
-  end
 
   def destroy
     user = Relationship.find(params[:id]).followed
